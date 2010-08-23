@@ -1,5 +1,8 @@
 package net.frontlinesms.plugins.scripter;
 
+/**
+ * @author Alex Anderson <alex@frontlinesms.com>
+ */
 public class ScripterScript {
 	private static final String[] DEFAULT_SCRIPT = {
 		"// Welcome to scripter",
