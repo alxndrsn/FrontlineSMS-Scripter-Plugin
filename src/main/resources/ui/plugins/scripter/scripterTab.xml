@@ -1,0 +1,14 @@
+<tab icon="/icons/big_export.png" text="Scripter" name=":httpTrigger">
+    <panel bottom="9" columns="2" gap="9" left="9" right="9" top="9" weightx="1" weighty="1">
+    	<splitpane weightx="1" weighty="1">
+			<panel columns="1" gap="9" weightx="1" weighty="1">
+				<textarea name="tfScript" action="textChanged" weightx="1" weighty="1"/>
+				<panel columns="2" gap="9" halign="right">
+			   		<button name="btSave" icon="/icons/tick.png" action="save" text="i18n.action.save" enabled="false"/>
+			   		<button name="btRevert" icon="/icons/refresh.png" action="revert" text="i18n.action.revert" enabled="false"/>
+			   	</panel>
+			</panel>
+			<list name="lsLog"/>
+		</splitpane>
+	</panel>
+</tab>
